@@ -1,0 +1,29 @@
+.title{
+    cursor: pointer;
+}
+.wrapper{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 400px;
+}
+
+.paraText{
+    padding: 10px;
+}
+
+.closed{
+    display: none;
+}
+
+.headingText{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 400px;
+}
