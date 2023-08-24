@@ -9,8 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
     height: 400px;
+    flex-direction: column;
 }
 
 .paraText{
@@ -26,4 +26,18 @@
     padding: 10px;
     justify-content: space-between;
     width: 400px;
+    height: 50px;
+    align-items: center;
+}
+
+.titleBorder{
+    height: 50px;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid black;
+    background-color: lightblue;
+    border-radius: 10px;
 }
